@@ -1,5 +1,7 @@
-# it tells us the experiences of my working in coding
+﻿# it tells us the experiences of my working in coding
 #去掉去不起作用的代码，保证代码清晰
 1.remove redundent code does not work to ensure that the code is clear.
 #采用高效率的代码实现功能
 2.achieve functionality with efficient code.
+#更多的弄清楚你拍档的设计思路
+3.get more knowledge of your partner's design
