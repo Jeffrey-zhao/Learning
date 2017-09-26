@@ -1,0 +1,5 @@
+VS Test step
+1. when you want to test unit function ,so you can do this.
+   a.right click in the code where cusor in public class or public function.
+   b.when in public class ,it will pop up a dialog and set it ,you can in a new /old file add all test functions in this class.
+   c.when in public function,it has the same operation ,but only add a function in which your cursor click.
