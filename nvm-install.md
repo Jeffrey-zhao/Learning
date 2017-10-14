@@ -26,3 +26,5 @@ tips: the command above will show when you execute step 2.
            source .bash_profile
         e.test nvm 
            nvm -v
+
+how to install nvm(http://www.imooc.com/article/14617)
