@@ -10,7 +10,9 @@ steps follows :
 2.create your project (Test,other name is also ok) in your local computer through vs 2015 or other version Edition.
 3.then the key step. Right click your solution in vs and choose "Add solution to Source Control"
 4.Syc your local to remote repository or means that add relationship of local source and remote repository.(remember copy your remote url)
-5.then republish your local solution .Wooo! something terrible happens. "conflict"--your remote repository has a Read.md but not in you local.
-6.how to solute it .firstly pop up your cmd in your project path. secondly,type "git pull origin master " denotes pull the "read.md" file. but is still error
- change the second step to right click branch master and republish to get origin/master  then merge origin/master to local master.
+5.then publish your local solution .Wooo! something terrible happens. "conflict"--your remote repository has a Read.md but not in you local.
+6.how to solute it .firstly pop up your cmd in your project path. secondly,type "git pull origin master " denotes pull the "read.md" file. but it is still error.("git pull origin master" is needed .because of syncing the branch of origin/master)
+change the second step to right click branch master and publish to get origin/master  then merge origin/master to local master.
 7.now you will see it already smooth.
+
+
