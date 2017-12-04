@@ -20,6 +20,7 @@ from disk 'd:\file1.bak'
 with recovery,
 move 'database1_data' to 'c:\Program Files\...\database2.mdf',
 move 'database1_log' to 'c:\Program Files\...\database2.mdf' 
+#refer to (https://stackoverflow.com/questions/5228597/restore-sql-server-database-in-same-pc-with-different-name)
 
 # the following will be added.
 2.restore using ui operation
