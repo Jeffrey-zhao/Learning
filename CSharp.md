@@ -16,3 +16,7 @@
   值传参：形参拷贝一份实参的副本
   有：值类型的按值传递，引用的按值传递
      引用类型的按值传递和引用传参
+5.委托 
+Delegate int CalcHandler(int a,int b)--委托类型
+CalcHandler add=(x,y)=>x+y;--委托实例也叫绑定委托
+add(2,3)--调用委托实例
