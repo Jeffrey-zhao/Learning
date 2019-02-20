@@ -1,0 +1,9 @@
+﻿<Application x:Class="_1.WPF_HelloWorld.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_1.WPF_HelloWorld"
+             StartupUri="Window3.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

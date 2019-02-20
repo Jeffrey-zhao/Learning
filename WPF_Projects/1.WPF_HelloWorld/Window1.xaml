@@ -1,0 +1,38 @@
+﻿<Window x:Class="_1.WPF_HelloWorld.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1.WPF_HelloWorld"
+        mc:Ignorable="d"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Window1" Height="300" Width="300">
+    <Window.Resources>
+        <sys:String x:Key="myString">Hello WPF</sys:String>
+    </Window.Resources>
+    <Grid>
+        <Button Click="click_Click" Width="50" Height="50">Click</Button>
+        <Rectangle Width="200" Height="120">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                        <GradientStop Color="LightBlue" Offset="0.2"></GradientStop>
+                        <GradientStop Color="Blue" Offset="0.7"></GradientStop>
+                        <GradientStop Color="DarkBlue" Offset="1.0"></GradientStop>
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBox Name="textbox" Width="50" Height="20" Text="{StaticResource myString}"/>
+    </Grid>
+    <x:Code>
+        <![CDATA[
+                private void click_Click(object sender, RoutedEventArgs e)
+                {
+                    MessageBox.Show("Clicked!");
+                }
+        ]]>
+    </x:Code>
+</Window>

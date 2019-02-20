@@ -1,0 +1,21 @@
+﻿<Window x:Class="_5.WPF_Event.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5.WPF_Event"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        local:TimeButton.ReportTime="ReportTimeHandler">
+    <Grid x:Name="grid1" local:TimeButton.ReportTime="ReportTimeHandler">
+        <Grid x:Name="grid2" local:TimeButton.ReportTime="ReportTimeHandler">
+            <Grid x:Name="grid3" local:TimeButton.ReportTime="ReportTimeHandler">
+                <StackPanel x:Name="stackPanel1" local:TimeButton.ReportTime="ReportTimeHandler">
+                    <ListBox x:Name="listbox"/>
+                    <local:TimeButton x:Name="timebutton" Height="80" Width="80" Content="Report Time" local:TimeButton.ReportTime="ReportTimeHandler"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>
