@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1E
 		Examples\WPF高仿360卫士9.0界面设计_8409055.zip = Examples\WPF高仿360卫士9.0界面设计_8409055.zip
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Example", "WPF_Example\WPF_Example.csproj", "{579CB91C-B9A7-4A1B-8279-E955E88B109D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{8B6C2F7E-0E87-4A93-B255-369E8D293079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B6C2F7E-0E87-4A93-B255-369E8D293079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B6C2F7E-0E87-4A93-B255-369E8D293079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579CB91C-B9A7-4A1B-8279-E955E88B109D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579CB91C-B9A7-4A1B-8279-E955E88B109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579CB91C-B9A7-4A1B-8279-E955E88B109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579CB91C-B9A7-4A1B-8279-E955E88B109D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
