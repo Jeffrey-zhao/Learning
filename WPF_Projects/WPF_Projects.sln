@@ -21,6 +21,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.WPF_Template", "8.WPF_Tem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.WPF_Style", "9.WPF_Style\9.WPF_Style.csproj", "{8B6C2F7E-0E87-4A93-B255-369E8D293079}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1E4122B8-C651-4AA6-8542-B643763FE94E}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\WPF 倒计时+震动 示例_8416821.zip = Examples\WPF 倒计时+震动 示例_8416821.zip
+		Examples\WPF3D切换例子_TimeZoneDaemonApp(3D)_8408869.zip = Examples\WPF3D切换例子_TimeZoneDaemonApp(3D)_8408869.zip
+		Examples\WPF_嵌入字体_EmbeddedFont_8408883.zip = Examples\WPF_嵌入字体_EmbeddedFont_8408883.zip
+		Examples\WPF不规则按钮_8416707.zip = Examples\WPF不规则按钮_8416707.zip
+		Examples\WPF仿QQ关闭源码_8408891.7z = Examples\WPF仿QQ关闭源码_8408891.7z
+		Examples\WPF仿QQ抖动窗体效果_8416717.zip = Examples\WPF仿QQ抖动窗体效果_8416717.zip
+		Examples\WPF呼吸闪烁效果例子_8434069.7z = Examples\WPF呼吸闪烁效果例子_8434069.7z
+		Examples\WPF多线程演示_8318163.rar = Examples\WPF多线程演示_8318163.rar
+		Examples\WPF实现超酷样式按钮_8318169.rar = Examples\WPF实现超酷样式按钮_8318169.rar
+		Examples\WPF拖拽缩放等例子UIOperationDemo_8416813.zip = Examples\WPF拖拽缩放等例子UIOperationDemo_8416813.zip
+		Examples\WPF摄影系统完整例子[按钮、浏览、菜单、样式]_8434083.zip = Examples\WPF摄影系统完整例子[按钮、浏览、菜单、样式]_8434083.zip
+		Examples\WPF窗体缩放源码_8416751.zip = Examples\WPF窗体缩放源码_8416751.zip
+		Examples\wpf经典教程_6011075.pdf = Examples\wpf经典教程_6011075.pdf
+		Examples\WPF自定义图片按钮[ImageButtonWPF]_8434065.zip = Examples\WPF自定义图片按钮[ImageButtonWPF]_8434065.zip
+		Examples\WPF自定义控件开发Sample_8039293.zip = Examples\WPF自定义控件开发Sample_8039293.zip
+		Examples\WPF高仿360卫士9.0界面设计_8409055.zip = Examples\WPF高仿360卫士9.0界面设计_8409055.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
